@@ -3,7 +3,13 @@
 Markdown is een eenvoudige opmaaktaal: platte tekst die *opgemaakt* wordt met kleine stukjes 'code'. Die tekst is vervolgens snel te exporteren naar allerlei andere formats zoals pdf, word, html etc.
 
 ## Indeling
-| Kopjes | # H1 hoofdstuk <br> ## H2 sectie <br> ### H3 subsectie |  |
+
+```markdown
+# H1 hoofdstuk  
+## H1.1 sectie   
+### H1.1.3 subsectie  
+```
+
 
 ## Basic opmaak
 
@@ -15,6 +21,21 @@ Markdown is een eenvoudige opmaaktaal: platte tekst die *opgemaakt* wordt met kl
 | in line Formule | `$F = m \cdot a$` | $F = m \cdot a$ |
 | list | |
 | new line | | | 
+
+::::{tab-set}
+:::{tab-item} list
+1. item 1
+1. item 2.
+1. item 3.
+:::
+:::{tab-item} syntax
+```markdown
+1. item 1
+1. item 2.
+1. item 3.
+```
+:::
+::::
 
 ## Formules
 
