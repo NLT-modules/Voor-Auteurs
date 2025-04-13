@@ -14,7 +14,7 @@ Markdown is een eenvoudige opmaaktaal: platte tekst die *opgemaakt* wordt met kl
 Nummer je hoofdstukken en sectie niet! Dit gebeurt automatisch.
 ```
 
-Nieuwe regel krijg je door of een harde enter en een witregel of door twee spaties achter de zin.
+Nieuwe regel krijg je door of een harde enter en een witregel, of door een \ achter de zin en een enter of door twee spaties achter de zin.
 
 ## Basic opmaak
 
@@ -24,7 +24,14 @@ Nieuwe regel krijg je door of een harde enter en een witregel of door twee spati
 | Italic | `*italics*` | *Italics*
 | Emphasis | `***emphasis***` | ***emphasis*** |
 | in line Formule | `$F = m \cdot a$` | $F = m \cdot a$ |
+| Super en subscript | ``H{sub}`2`O, and 4{sup}`th` of July`` | H{sub}`2`O, and 4{sup}`th` of July|
 
+
+- A footnote reference[^myref]
+- Manually-numbered footnote reference[^3]
+
+[^myref]: This is an auto-numbered footnote definition.
+[^3]: This is a manually-numbered footnote definition.
 
 ### Lijsten optie 1
 ::::{tab-set}
@@ -74,7 +81,8 @@ a. item 3.
 :::
 ::::
 
-
+- [x] Create a community around MyST
+- [ ] Revolutionize technical communication
 
 ## Formules
 
@@ -134,6 +142,7 @@ Met een mooi onderschrift
 ::::
 
 ## YouTube
+Gebruik de embed link
 
 ::::{tab-set}
 :::{tab-item} YouTube
