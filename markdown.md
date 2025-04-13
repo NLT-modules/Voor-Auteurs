@@ -10,6 +10,11 @@ Markdown is een eenvoudige opmaaktaal: platte tekst die *opgemaakt* wordt met kl
 ### H1.1.3 subsectie  
 ```
 
+```{tip}
+Nummer je hoofdstukken en sectie niet! Dit gebeurt automatisch.
+```
+
+Nieuwe regel krijg je door of een harde enter en een witregel of door twee spaties achter de zin.
 
 ## Basic opmaak
 
@@ -19,9 +24,9 @@ Markdown is een eenvoudige opmaaktaal: platte tekst die *opgemaakt* wordt met kl
 | Italic | `*italics*` | *Italics*
 | Emphasis | `***emphasis***` | ***emphasis*** |
 | in line Formule | `$F = m \cdot a$` | $F = m \cdot a$ |
-| list | |
-| new line | | | 
 
+
+### Lijsten optie 1
 ::::{tab-set}
 :::{tab-item} list
 1. item 1
@@ -36,6 +41,40 @@ Markdown is een eenvoudige opmaaktaal: platte tekst die *opgemaakt* wordt met kl
 ```
 :::
 ::::
+
+### Lijsten optie 2
+::::{tab-set}
+:::{tab-item} list
+a. item 1
+a. item 2.
+a. item 3.
+:::
+:::{tab-item} syntax
+```markdown
+a. item 1
+a. item 2.
+a. item 3.
+```
+:::
+::::
+
+### Lijsten optie 3
+::::{tab-set}
+:::{tab-item} list
+1. item 1
+2. item 2.
+3. item 3.
+:::
+:::{tab-item} syntax
+```markdown
+1. item 1
+2. item 2.
+3. item 3.
+```
+:::
+::::
+
+
 
 ## Formules
 
@@ -95,5 +134,26 @@ Met een mooi onderschrift
 ::::
 
 ## YouTube
+
+::::{tab-set}
+:::{tab-item} YouTube
+```{iframe} https://www.youtube.com/embed/YDBr1Lof_mI?si=thWYK9MFi5QJv-tW
+:width: 80%
+:align: center
+
+Een superleuke video van het project [Show the Physics](https://interactivetextbooks.tudelft.nl/showthephysics)
+```
+:::
+:::{tab-item} syntax
+````markdown
+```{iframe} https://www.youtube.com/embed/YDBr1Lof_mI?si=thWYK9MFi5QJv-tW
+:width: 80%
+:align: center
+
+Een superleuke video van het project [Show the Physics](https://interactivetextbooks.tudelft.nl/showthephysics)
+```
+````
+:::
+::::
 
 ## Links
