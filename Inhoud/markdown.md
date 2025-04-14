@@ -297,17 +297,17 @@ Een superleuke video van het project [Show the Physics](https://interactivetextb
 
 ::::{tab-set}
 :::{tab-item} list
-Dit is een [hyperlink](https://nos.nl)
-Dit is een verwijzing naar vergelijking {eq}`eq:Newton`
-Dit is een verwijzing naar een tabel zoals {numref}`Tabel {number} <tl_sancties>`
-Dit is een verwijzing naar een figuur zoals {numref}`Figuur {number} <fig_sunset>` 
+* Dit is een [hyperlink](https://nos.nl)  
+* Dit is een verwijzing naar vergelijking {eq}`eq:Newton`  
+* Dit is een verwijzing naar een tabel zoals {numref}`Tabel {number} <tl_sancties>`  
+* Dit is een verwijzing naar een figuur zoals {numref}`Figuur {number} <fig_sunset>`  
 :::
 :::{tab-item} syntax
 ```markdown
-Dit is een [hyperlink](https://nos.nl)
-Dit is een verwijzing naar vergelijking {eq}`eq:Newton`
-Dit is een verwijzing naar een tabel zoals {numref}`Tabel {number} <tl_sancties>`
-Dit is een verwijzing naar een figuur zoals {numref}`Figuur {number} <fig_sunset>` 
+* Dit is een [hyperlink](https://nos.nl)  
+* Dit is een verwijzing naar vergelijking {eq}`eq:Newton`  
+* Dit is een verwijzing naar een tabel zoals {numref}`Tabel {number} <tl_sancties>`  
+* Dit is een verwijzing naar een figuur zoals {numref}`Figuur {number} <fig_sunset>`  
 ```
 :::
 ::::
