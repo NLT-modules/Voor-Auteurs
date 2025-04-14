@@ -235,7 +235,7 @@ Of via ...
 
 ```{list-table} Overzicht van sancties bij bepaald gedrag
 :header-rows: 1
-:name: sancties
+:name:tl_ sancties
 * - Gedrag
     - Sanctie bij 1e keer
     - Sanctie bij 2e keer
@@ -264,7 +264,7 @@ Of via ...
 :::
 ::::
 
-Methode 2 heeft als voordeel de mogelijkheid tot refereren naar {numref}`Tabel {number} <tb_sancties>`
+Methode 2 heeft als voordeel de mogelijkheid tot refereren naar {numref}`Tabel {number} <tl_sancties>`
 
 
 ## YouTube
