@@ -1,4 +1,4 @@
-# How to
+# Een snelle start
 How to helpen bij het bekijken van het boek
 
 1. Ga naar [Github.com](https://github.com/) en maak een account aan. Rechtsboven voor sign in / sign up.

@@ -2,7 +2,17 @@
 
 Markdown is een eenvoudige opmaaktaal: platte tekst die *opgemaakt* wordt met kleine stukjes 'code'. Die tekst is vervolgens snel te exporteren naar allerlei andere formats zoals pdf, word, html etc.
 
-## Indeling
+```{figure} ../Figuren/MyST.PNG
+:width:80%
+
+Een Jupyter Book gemaakt met MyST vraagt een collectie van markdown en jupyter notebooks die vervolgens geëxporteerd kunnen worden naar pdf, html maar ook word.
+```
+
+## Structuur
+
+### Toc
+
+### Hoofdstukken
 
 ```markdown
 # H1 hoofdstuk  
@@ -25,20 +35,23 @@ Een nieuwe regel met een `\`.\
 Een niet regel met een harde enter en witregel.
 
 Einde oefening.
+En een voorbeeld als de vorige regel niet eindigt met bovenstaande.
 :::
 :::{tab-item} syntax
 ```markdown
 Een nieuwe regel met dubbele spatie.  
 Een nieuwe regel met een `\`.\
-Een niet regel met een harde enter en witregel.
+Een nieuw regel met een harde enter en witregel.
 
 Einde oefening.
+En een voorbeeld als de vorige regel niet eindigt met bovenstaande.
 ```
 :::
 ::::
 
 
 ## Basic opmaak
+Markdown is een opmaaktaal waarbij de formatting van de tekst gedaan wordt met kleine stukjes code (net als bij HTML).
 
 | Element | Syntax | Voorbeeld | 
 | --- | --- | --- |
@@ -122,7 +135,7 @@ Maar je kunt ook inline vergelijkingen opnemen zoals deze: $s=v_{gem}t$. Daarbij
 |vermenigvuldig|`\cdot`|$\cdot$|
 
 Met wat voorbeelden:
-|Naam|Script|Symbolen|
+|Naam|Script|Output|
 |---|---|---|
 |Afgeleide|`\frac{\Delta f}{\Delta t}`|$\frac{\Delta f}{\Delta t}$|
 |Integraal|`\int_a^b dx`|$\int_a^b dx$|
