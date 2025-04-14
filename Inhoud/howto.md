@@ -13,7 +13,9 @@ width: 70%
 
 4. Bekijk het volgende filmpje:
 
-<iframe width="853" height="480" src="https://www.youtube.com/embed/ewhBYkATbAc" title="Github editing" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+```{iframe} https://www.youtube.com/embed/ewhBYkATbAc
+:width:80%
+```
 
 5. Hieronder weergegeven, de folderstructuur met de bestanden die je kunt aanpassen, rechtsboven de link naar het boek en hoe het er uit komt te zien.
 

@@ -1,6 +1,14 @@
 # Github
 
-[GitHub](http://github.com) is een webplatform voor versiebeheer en samenwerking bij softwareontwikkeling. Het stelt ontwikkelaars in staat om overal ter wereld samen te werken aan projecten door wijzigingen bij te houden en te beheren. Voor de cursus Jupyter Book is het noodzakelijk om een account te maken.
+[GitHub](http://github.com) is een webplatform voor versiebeheer en samenwerking bij softwareontwikkeling. Het stelt ontwikkelaars in staat om overal ter wereld samen te werken aan projecten door wijzigingen bij te houden en te beheren. Ook gebruikers van Jupyter Books kunnen input leveren door bijvoorbeeld een issue aan te maken (zie de button rechtsboven)
+
+## NLT Organization
+Er is een [NLT organization](https://github.com/NLT-modules) aangemaakt in Github. Daarin kunnen alle modules komen te staan. Het voordeel van zo'n organization is dat er experts ondersteuning kunnen bieden wanneer het niet lukt.
+
+Wil je een NLT module schrijven via MyST ... laat weten.
+
+## Online starten
+Voor de cursus Jupyter Book is het noodzakelijk om een account te maken.
 
 * Ga naar [GitHub](http://github.com)
 * Maak een account aan
@@ -27,7 +35,3 @@ GitHub Desktop is een grafische gebruikersinterface (GUI) om (eenvoudiger) te we
 Werk je met TUD Gitlab, dan is een net andere aanpak nodig, zie de [beschrijving van de collega's](https://mude.citg.tudelft.nl/2023/software/git_install/).
 ```
 
-## NLT Organization
-Er is een [NLT organization](https://github.com/NLT-modules) aangemaakt in Github. Daarin kunnen alle modules komen te staan. Het voordeel van zo'n organization is dat er experts ondersteuning kunnen bieden wanneer het niet lukt.
-
-Wil je een NLT module schrijven via MyST ... laat weten.
