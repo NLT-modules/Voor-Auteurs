@@ -1,4 +1,4 @@
-# Markdown
+# Markdown (Cheatsheet)
 
 Markdown is een eenvoudige opmaaktaal: platte tekst die *opgemaakt* wordt met kleine stukjes 'code'. Die tekst is vervolgens snel te exporteren naar allerlei andere formats zoals pdf, word, html etc.
 
@@ -16,6 +16,28 @@ Nummer je hoofdstukken en sectie niet! Dit gebeurt automatisch.
 
 Nieuwe regel krijg je door of een harde enter en een witregel, of door een \ achter de zin en een enter of door twee spaties achter de zin.
 
+
+### Nieuwe regel
+::::{tab-set}
+:::{tab-item} list
+Een nieuwe regel met dubbele spatie.  
+Een nieuwe regel met een `\`.\
+Een niet regel met een harde enter en witregel.
+
+Einde oefening.
+:::
+:::{tab-item} syntax
+```markdown
+Een nieuwe regel met dubbele spatie.  
+Een nieuwe regel met een `\`.\
+Een niet regel met een harde enter en witregel.
+
+Einde oefening.
+```
+:::
+::::
+
+
 ## Basic opmaak
 
 | Element | Syntax | Voorbeeld | 
@@ -25,13 +47,8 @@ Nieuwe regel krijg je door of een harde enter en een witregel, of door een \ ach
 | Emphasis | `***emphasis***` | ***emphasis*** |
 | in line Formule | `$F = m \cdot a$` | $F = m \cdot a$ |
 | Super en subscript | ``H{sub}`2`O, and 4{sup}`th` of July`` | H{sub}`2`O, and 4{sup}`th` of July|
+| Footnore | ` - A footnote reference[^myref] \ [^myref]: This is an auto-numbered footnote definition.`|- A footnote reference[^myref] \ [^myref]: This is an auto-numbered footnote definition.| 
 
-
-- A footnote reference[^myref]
-- Manually-numbered footnote reference[^3]
-
-[^myref]: This is an auto-numbered footnote definition.
-[^3]: This is a manually-numbered footnote definition.
 
 ### Lijsten optie 1
 ::::{tab-set}
@@ -52,40 +69,66 @@ Nieuwe regel krijg je door of een harde enter en een witregel, of door een \ ach
 ### Lijsten optie 2
 ::::{tab-set}
 :::{tab-item} list
-a. item 1
-a. item 2.
-a. item 3.
+1. item 1
+2. item 2.
+3. item 3.
 :::
 :::{tab-item} syntax
 ```markdown
-a. item 1
-a. item 2.
-a. item 3.
+1. item 1
+2. item 2.
+3. item 3.
 ```
 :::
 ::::
 
-### Lijsten optie 3
+### Afvinklijsten 
 ::::{tab-set}
 :::{tab-item} list
-1. item 1
-2. item 2.
-3. item 3.
+- [x] Een markdown cheatsheet maken
+- [x] Online zetten
+- [] Laten testen
 :::
 :::{tab-item} syntax
 ```markdown
-1. item 1
-2. item 2.
-3. item 3.
+- [x] Een markdown cheatsheet maken
+- [x] Online zetten
+- [] Laten testen
 ```
 :::
 ::::
 
-- [x] Create a community around MyST
-- [ ] Revolutionize technical communication
 
 ## Formules
 
+Voor de betavakken zijn wiskundige vergelijkingen essentieel. Ook in JB's kun je vergelijkingen opnemen. Wat in LaTeX kan, kan in JB ook, bijv:
+
+$$ F_{res} = m \cdot a$$ (eq:Newton)
+
+Waarbij gelabelde vergelijkingen, zoals {eq}`eq:Newton` naar verwezen kan worden. 
+
+`$$ Vergelijking $$`
+
+Maar je kunt ook inline vergelijkingen opnemen zoals deze: $s=v_{gem}t$. Daarbij gebruik je een enkele dollar teken voor en na je `$ Vergelijking $`
+
+
+|Naam|Script|Symbolen|
+|---|---|---|
+|wortel|`\sqrt{4}`|$\sqrt{4}$|
+|macht|`^{2x}`|$^{2x}$|
+|breuk|`\frac{2}{3}`|$\frac{2}{3}$|
+|subscript|`_{gem}`|$_{gem}$
+|superscript|`^{N}`|$^{N}$|
+|vermenigvuldig|`\cdot`|$\cdot$|
+
+Met wat voorbeelden:
+|Naam|Script|Symbolen|
+|---|---|---|
+|Afgeleide|`\frac{\Delta f}{\Delta t}`|$\frac{\Delta f}{\Delta t}$|
+|Integraal|`\int_a^b dx`|$\int_a^b dx$|
+|sinus|`sin(x)`|$sin(x)$|
+
+Uitgebreider: https://en.wikibooks.org/wiki/LaTeX/Mathematics
 
 ## Admonitions
 
@@ -141,6 +184,76 @@ Met een mooi onderschrift
 :::
 ::::
 
+
+## Tabellen
+
+Tabellen worden gemaakt met scheidingsteken `|`
+
+::::{tab-set}
+:::{tab-item} Tabellen
+
+```
+|Kop 1|Kop 2|Kop3|
+|---|---|---|
+|tekst 1|tekst 2|tekst 3|
+|tekst 4|tekst 5|tekst 6|
+```
+
+:::
+
+:::{tab-item} MyST Syntax
+
+````markdown
+```
+|Kop 1|Kop 2|Kop3|
+|---|---|---|
+|tekst 1|tekst 2|tekst 3|
+|tekst 4|tekst 5|tekst 6|
+```
+````
+
+:::
+::::
+
+Of via ...
+
+::::{tab-set}
+:::{tab-item} Tabellen
+
+```{list-table} Overzicht van sancties bij bepaald gedrag
+:header-rows: 1
+:name: sancties
+* - Gedrag
+    - Sanctie bij 1e keer
+    - Sanctie bij 2e keer
+* - Niet (tijdig of met een geldige reden) afgemeld 
+    - Een penalty                                       
+    - uitsluiting              
+```
+
+:::
+
+:::{tab-item} MyST Syntax
+
+````markdown
+```{list-table} Overzicht van sancties bij bepaald gedrag
+:header-rows: 1
+:name: sancties
+* - Gedrag
+    - Sanctie bij 1e keer
+    - Sanctie bij 2e keer
+* - Niet (tijdig of met een geldige reden) afgemeld 
+    - Een penalty                                       
+    - uitsluiting              
+``` 
+````
+
+:::
+::::
+
+Methode 2 heeft als voordeel de mogelijkheid tot refereren naar {numref}`Tabel {number} <tb_sancties>`
+
+
 ## YouTube
 Gebruik de embed link
 
@@ -166,3 +279,12 @@ Een superleuke video van het project [Show the Physics](https://interactivetextb
 ::::
 
 ## Links
+(sec-ref)=
+## Referenties
+Hier kun je een [link](https://nos.nl) kwijt met: `[tekst](url)`
+
+Of de verwijzing naar vergelijking {eq}`eq:Newton` met ``` {eq}`label vergelijking` ```
+
+Of naar een tabel zoals {numref}`Tabel {number} <tb_sancties>` met ``` {numref}`Tabel {number} <tabel label>` ```
+
+Of naar een figuur zoals {numref}`Figuur {number} <figuur>` met ``` {numref}`Figuur {number} <figuur>` ```
