@@ -173,7 +173,7 @@ Maak de som $4+2$
 :::{tab-item} Figuren
 
 ```{figure} https://github.com/rowanc1/pics/blob/main/sunset.png
-:label: fig1
+:label: fig_sunset
 :width: 70%
 :align: center
 
@@ -251,7 +251,7 @@ Of via ...
 ````markdown
 ```{list-table} Overzicht van sancties bij bepaald gedrag
 :header-rows: 1
-:name: sancties
+:name: tl_sancties
 * - Gedrag
     - Sanctie bij 1e keer
     - Sanctie bij 2e keer
@@ -294,10 +294,21 @@ Een superleuke video van het project [Show the Physics](https://interactivetextb
 ## Links
 (sec-ref)=
 ## Referenties
-Hier kun je een [link](https://nos.nl) kwijt met: `[tekst](url)`
 
-Of de verwijzing naar vergelijking {eq}`eq:Newton` met ``` {eq}`label vergelijking` ```
+::::{tab-set}
+:::{tab-item} list
+Dit is een [hyperlink](https://nos.nl)
+Dit is een verwijzing naar vergelijking {eq}`eq:Newton`
+Dit is een verwijzing naar een tabel zoals {numref}`Tabel {number} <tl_sancties>`
+Dit is een verwijzing naar een figuur zoals {numref}`Figuur {number} <fig_sunset>` 
+:::
+:::{tab-item} syntax
+```markdown
+Dit is een [hyperlink](https://nos.nl)
+Dit is een verwijzing naar vergelijking {eq}`eq:Newton`
+Dit is een verwijzing naar een tabel zoals {numref}`Tabel {number} <tl_sancties>`
+Dit is een verwijzing naar een figuur zoals {numref}`Figuur {number} <fig_sunset>` 
+```
+:::
+::::
 
-Of naar een tabel zoals {numref}`Tabel {number} <tb_sancties>` met ``` {numref}`Tabel {number} <tabel label>` ```
-
-Of naar een figuur zoals {numref}`Figuur {number} <figuur>` met ``` {numref}`Figuur {number} <figuur>` ```
