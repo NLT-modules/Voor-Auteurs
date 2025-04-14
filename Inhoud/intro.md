@@ -1,6 +1,8 @@
 # Introductie
 
-NLT modules raken relatief snel verouderd: links doen het niet meer, filmpjes bestaan niet meer, etc. Eens in de zoveel jaar is er groot onderhoud aan de module door het auteurs team, wat veel werk vraagt en ook noodzaakt dat bijvoorbeeld alle links weer worden gecheckt. In de tussentijd hebben de meeste docenten zelf al aanpassingen aan de modules gemaakt.
+NLT (Natuur, Leven en Technologie) is een keuzeprofielvak op de middelbare school. In plaats van een vast staand programma wordt er gewerkt met modules die door verschillende auteurteams zijn gemaakt. Na het maken van die modules worden deze getest en gecertificeerd en vervolgens in gebruik genomen. 
+
+Helaas raken NLT modules relatief snel verouderd: links doen het niet meer, filmpjes bestaan niet meer, etc. Eens in de [zoveel jaar](https://www.verenigingnlt.nl/site/assets/files/1049/procedure_onderhoud_nlt_modules_sept_2012.pdf) is er groot onderhoud aan de module door het auteurs team, wat veel werk vraagt en ook noodzaakt dat bijvoorbeeld alle links weer worden gecheckt. In de tussentijd hebben de meeste docenten zelf al aanpassingen aan de modules gemaakt.
 
 Kan dat niet anders?
 
@@ -18,4 +20,4 @@ Een oplossing is het gebruik van Jupyter Books geïntegreerd met GitHub (een onl
 * Het gebruik van GitHub is een steile leercurve. 
 * De content is geschreven van Markdown, een eenvoudige opmaaktaal, maar dat vraagt wel wat kennis.
 
-Die nadelen proberen we hier zo veel mogelijk te verkleinen.
+Die nadelen proberen we hier zo veel mogelijk te verkleinen. In het volgende hoofdstuk bespreken we in detail de technische details rond het maken en onderhouden van deze online modules. Dat hoofdstuk kun je ook overslaan en meteen doorgaan naar [de snelle start](howto.md).
