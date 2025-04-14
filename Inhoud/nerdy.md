@@ -37,9 +37,9 @@ Voor een verdere introductie tot GitHub, bekijk dit filmpje:
 Er zijn ook [online lessen](https://swcarpentry.github.io/git-novice/) beschikbaar rond het gebruik van GitHub.
 
 Weet je zeker dat je aan de slag gaat? Voer dan de volgende stappen uit:
-- [] Ga naar [GitHub](http://github.com)
-- [] Maak een account aan.
-- [] Lees de [snelle start](howto.md)
+- [ ] Ga naar [GitHub](http://github.com)
+- [ ] Maak een account aan.
+- [ ] Lees de [snelle start](howto.md)
 
 ### Organizations
 Er is een [NLT organization](https://github.com/NLT-modules) aangemaakt in Github. Daarin kunnen alle modules komen te staan. Het voordeel van zo'n organization is dat er experts ondersteuning kunnen bieden wanneer het niet lukt.
@@ -79,7 +79,7 @@ VSC voor het maken van je boek, geheel links het menu, daarnaast de folders met 
 [Download](https://code.visualstudio.com/Download) en installeer VSC.
 ```
 
-## Extensies
+### Extensies
 Een aantal extensies zijn handig / nodig voor programmeren in Python en/of het maken van een Jupyter Boek.
 - [MyST-Markdown](https://marketplace.visualstudio.com/items?itemName=ExecutableBookProject.myst-highlight) - adds support for MyST markdown, including previews.
 - [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter) - Extensie voor Jupyter 
