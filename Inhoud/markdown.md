@@ -9,8 +9,11 @@ Een Jupyter Book gemaakt met MyST vraagt een collectie van markdown en jupyter n
 ```
 
 ## Structuur
+We kunnen hier onderscheid maken in twee structuren: die van de inhoud van de boek (een collectie van verschillende documenten), en de (interne)structuur van de hoofdstukken.
 
-### Toc
+### Table of Contents
+
+Iets over TOC maken en init
 
 ### Hoofdstukken
 
