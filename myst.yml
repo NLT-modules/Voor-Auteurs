@@ -2,10 +2,10 @@
 version: 1
 project:
   id: 0aa96e9b-d14d-4680-8ca2-307fefa366f0
-  # title:
+  title: NLT Voor Auteurs
   # description:
   # keywords: []
-  # authors: []
+  authors: [Freek Pols]
   github: https://github.com/NLT-modules/Voor-Auteurs
   downloads:
     - id: output-pdf

@@ -71,7 +71,7 @@ Volg de volgende stappen om je eigen repository op te zetten.
 
 Het boek wordt nu nog een keer aangemaakt en ingeladen met GitHub pages. 
 
-```{figure} Figuren/rerunjobs.PNG
+```{figure} ../Figuren/rerunjobs.PNG
 ---
 name: fig_rerun
 width: 70%
@@ -82,7 +82,7 @@ Als het boek bouw proces klaar is zijn alle bolletjes groen gekleurd.
 8. Ga via de link (code, rechterkant onder **About**) naar de GitHub page waar het boek online gezet wordt.
 9. De output is gelijk aan {numref}`Figuur {number} <fig_templatebook>` hieronder.
 
-``` {figure} Figuren/templateboekoutput.PNG
+``` {figure} ../Figuren/templateboekoutput.PNG
 ---
 name: fig_templatebook
 width: 100%

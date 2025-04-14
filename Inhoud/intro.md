@@ -10,8 +10,8 @@ Een oplossing is het gebruik van Jupyter Books geïntegreerd met GitHub (een onl
 
 **Voordelen:**
 *  Problemen (issues) kunnen gemeld worden 
-*  Aanpassingen van de module staan direct online 
-*  Elk hoofdstuk, maar ook het hele boek kan apart als pdf gedownload worden 
+*  Aanpassingen van de module staan direct online
+*  Elk hoofdstuk, maar ook het hele boek kan apart als pdf gedownload worden
 *  De bronbestanden staan online en zijn toegankelijk voor de community 
 *  Verschillende rollen kunnen toegekend worden waardoor de gebruikers aanpassingen en uitbreidingen kunnen voorstellen 
 *  Onderhoud is frequenter, sneller, en eenvoudiger
@@ -21,3 +21,7 @@ Een oplossing is het gebruik van Jupyter Books geïntegreerd met GitHub (een onl
 * De content is geschreven van Markdown, een eenvoudige opmaaktaal, maar dat vraagt wel wat kennis.
 
 Die nadelen proberen we hier zo veel mogelijk te verkleinen. In het volgende hoofdstuk bespreken we in detail de technische details rond het maken en onderhouden van deze online modules. Dat hoofdstuk kun je ook overslaan en meteen doorgaan naar [de snelle start](howto.md).
+
+```{tip}
+Ook deze documentatie kun je downloaden als pdf! Ga naar de landingspagina, klik op de downloadknop rechtsboven en download het als pdf!
+```

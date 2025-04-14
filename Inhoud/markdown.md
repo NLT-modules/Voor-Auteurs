@@ -12,8 +12,7 @@ Een Jupyter Book gemaakt met MyST vraagt een collectie van markdown en jupyter n
 We kunnen hier onderscheid maken in twee structuren: die van de inhoud van de boek (een collectie van verschillende documenten), en de (interne)structuur van de hoofdstukken.
 
 ### Table of Contents
-
-Iets over TOC maken en init
+De software waar we gebruik van maken bouwt zelf een inhoudsopgave (Table of contents, ookwel ToC). Dat gaat op alfabetische volgorde. Maar je kunt ook zelf de ToC specificeren. Dit kan wel het beste door offline te werken (myst init --toc), zie de [documentatie van MyST](https://mystmd.org/guide/table-of-contents#toc-format-legacy). 
 
 ### Hoofdstukken
 

@@ -50,6 +50,7 @@ jobs:
             changepage
             amsfonts
             enumitem
+            framed
       - name: Build PDF Assets
         run: myst build --pdf      
       - name: Build HTML Assets
