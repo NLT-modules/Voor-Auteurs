@@ -23,3 +23,7 @@ site:
   options:
   #   favicon: favicon.ico
     logo: Figuren/logo.jpg
+  actions:
+  - title: report issue
+    url: https://github.com/NLT-modules/Voor-Auteurs/issues 
+

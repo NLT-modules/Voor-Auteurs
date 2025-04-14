@@ -6,15 +6,16 @@ site:
   hide_title_block: true
 ---
 
+## NLT modules, voor auteurs
+
 ```{figure} Figuren/NLT_voor_jou.jpg
 :width: 80%
 :align: center
 
 ```
 
-<div style="text-align: center; font-size: 24px">
+<div style="text-align: center; font-size: 12px">
 
-NLT modules, voor auteurs
 test 0.1
 
 </div>

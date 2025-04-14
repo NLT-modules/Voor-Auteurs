@@ -1,5 +1,13 @@
 # Technische introductie
 
+```{warning}
+Laat je niet door onderstaande afschrikken. Het geeft een technisch inhoudelijk overzicht van wat er hier precies gebeurt. Je kunt ook meteen door met [de snelle start](howto.md)
+```
+
+De modules zijn gemaakt met behulp van MyST (de opvolger van Jupyter Book). MyST is een krachtig auteursframework dat het maken van (online) blogs, boeken, artikelen en tijdschriften ondersteunt. Daarbij maken we gebruik van een online beheerplatform genaamd GitHub die de bronbestanden omzet in een online boek. Het beheer van alle boeken gebeurt met behulp van een organization in GitHub zodat er altijd technische ondersteuning mogelijk is. Wil je offline aan de slag, dan raden we Visual Studio Code aan.
+
+Hieronder volgt een meer gedetailleerde uitleg.
+
 ## MyST
 
 [MyST](https://mystmd.org/guide) is een open-source tool waarmee je zowel wetenschappelijke artikelen alsook boeken kunt maken die via GitHub (of een server) gehost kunnen worden. Er is een uitgebreide community die MyST helpt te ontwikkelen. Er is ook een uitgebreide handleiding beschikbaar om je op weg te helpen.
