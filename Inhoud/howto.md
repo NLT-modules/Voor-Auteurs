@@ -63,8 +63,11 @@ Volg de volgende stappen om je eigen repository op te zetten.
 2. Klik op de groene `use this template` en klik `create a new repository`.
 3. Kies de naam voor je repository, en kies voor de optie `public`.
 4. In je repository, klik links op pages en kies voor `Github actions`
-``` {figure} Figuren/set_up_pages.png
+
+``` {figure} ../Figuren/set_up_pages.png
+:width: 80%
 ```
+
 5. Klik op `code` en klik op het tandwiel (bij **About**) aan de rechterkant van het scherm. 
 6. Vink **Use your GitHub Pages website** aan.
 7. Ga naar actions in het bovenste menu, klik op de (rode) `inital commit` en klik op `re-run all jobs`
