@@ -15,6 +15,7 @@ We kunnen hier onderscheid maken in twee structuren: die van de inhoud van de bo
 De software waar we gebruik van maken bouwt zelf een inhoudsopgave (Table of contents, ookwel ToC). Dat gaat op alfabetische volgorde. Maar je kunt ook zelf de ToC specificeren. Dit kan wel het beste door offline te werken (myst init --toc), zie de [documentatie van MyST](https://mystmd.org/guide/table-of-contents#toc-format-legacy). 
 
 ### Hoofdstukken
+Om onderscheid te maken tussen hoofdstuk, sectie en subsectie (en verder) wordt er gewerkt met aantal `#`, zie hieronder.
 
 ```markdown
 # H1 hoofdstuk  
@@ -26,7 +27,7 @@ De software waar we gebruik van maken bouwt zelf een inhoudsopgave (Table of con
 Nummer je hoofdstukken en sectie niet! Dit gebeurt automatisch.
 ```
 
-Nieuwe regel krijg je door of een harde enter en een witregel, of door een \ achter de zin en een enter of door twee spaties achter de zin.
+Een nieuwe regel krijg je door of een harde enter en een witregel, of door een \ achter de zin en een enter of door twee spaties achter de zin.
 
 
 ### Nieuwe regel
@@ -62,7 +63,7 @@ Markdown is een opmaaktaal waarbij de formatting van de tekst gedaan wordt met k
 | Emphasis | `***emphasis***` | ***emphasis*** |
 | in line Formule | `$F = m \cdot a$` | $F = m \cdot a$ |
 | Super en subscript | ``H{sub}`2`O, and 4{sup}`th` of July`` | H{sub}`2`O, and 4{sup}`th` of July|
-| Footnore | ` - A footnote reference[^myref] \ [^myref]: This is an auto-numbered footnote definition.`|- A footnote reference[^myref] \ [^myref]: This is an auto-numbered footnote definition.| 
+| Footnote | ` - A footnote reference[^myref] \ [^myref]: This is an auto-numbered footnote definition.`|- A footnote reference[^myref] \ [^myref]: This is an auto-numbered footnote definition.| 
 
 
 ### Lijsten optie 1
@@ -146,14 +147,25 @@ Met wat voorbeelden:
 Uitgebreider: https://en.wikibooks.org/wiki/LaTeX/Mathematics
 
 ## Admonitions
+Je kunt speciale blokken toevoegen die gehighlight worden in de tekst. Zie bijvoorbeeld onderstaande waarschuwing.
 
 ```{warning}
 Hier een waarschuwing
 ```
 
-tip / admonition / warning / note / objective / see also ...
+Daar zijn verschillende varianten van zoals:
+* tip 
+* admonition 
+* warning 
+* note 
+* objective 
+* see also ...
 
-## Opdrachten
+```{tip} De gouden...
+Exercises zijn een speciaal soort admonition.
+```
+
+### Opdrachten
 ```{exercise} Opdracht 1
 :label: ex_opdr_1
 
@@ -166,10 +178,14 @@ Maak de som $4+2$
 6
 ```
 
-
-
 ## Figuren
+Een site / boek kan natuurlijk niet zonder figuren. Er zijn grofweg twee manieren om een figuur te maken
+
+*Snelle figuur, zonder opmaak mogelijkheden*
+
 | Snelle figuur | `![](link naar figuur)` |
+
+*Betere manier met meer controle:*
 
 ::::{tab-set}
 :::{tab-item} Figuren
@@ -199,6 +215,7 @@ Met een mooi onderschrift
 :::
 ::::
 
+Hier hebben we gebruik gemaakt van figuren die op het internet staan, maar je kunt ook figuren zelf toevoegen aan een folder (bijv. genaamd *Figuren*), waarbij je dan een relatief pad op geeft.
 
 ## Tabellen
 
@@ -270,7 +287,7 @@ Methode 2 heeft als voordeel de mogelijkheid tot refereren naar {numref}`Tabel {
 
 
 ## YouTube
-Gebruik de embed link
+Voor het embedden van YouTube filmpjes op de site heb je de embed YT link nodig. De code wordt dan:
 
 ::::{tab-set}
 :::{tab-item} YouTube
@@ -293,7 +310,10 @@ Een superleuke video van het project [Show the Physics](https://interactivetextb
 :::
 ::::
 
-## Links
+```{warning} YT in pdf
+De embedded YT filmpjes worden niet opgenomen in de pdf. Een oplossing zou bijv. een qr code opnemen kunnen zijn.
+```
+
 (sec-ref)=
 ## Referenties
 
